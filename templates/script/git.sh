@@ -5,4 +5,4 @@ echo "message: $message"
 git commit -am "$message"
 echo "Push To: "
 read pushto
-git push -u $pushto
+git push -u $pushto main
